@@ -1,0 +1,28 @@
+{
+  "benchmark_timestamp": "2026-11-14 19:11:29",
+  "dataset_sample_size": 100000,
+  "test_sample_size": 20000,
+  "random_state": 42,
+  "feature_count": 24,
+  "models": {
+    "random_forest": {
+      "name": "Random Forest Regressor",
+      "r2_score": 0.9144,
+      "mae_tons_per_ha": 0.3972,
+      "rmse_tons_per_ha": 0.4982,
+      "mae_kg_per_ha": 397.16,
+      "rmse_kg_per_ha": 498.16
+    },
+    "tensorflow_dnn": {
+      "name": "TensorFlow Deep Neural Network",
+      "r2_score": 0.9114,
+      "mae_tons_per_ha": 0.4042,
+      "rmse_tons_per_ha": 0.5068,
+      "mae_kg_per_ha": 404.17,
+      "rmse_kg_per_ha": 506.82,
+      "epochs_trained": 15,
+      "training_time_seconds": 20.63
+    }
+  },
+  "winner": "Random Forest Regressor"
+}

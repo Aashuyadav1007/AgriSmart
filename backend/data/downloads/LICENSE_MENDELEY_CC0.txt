@@ -1,0 +1,27 @@
+================================================================================
+MENDELEY DATA REPOSITORY LICENSE METADATA
+================================================================================
+Dataset Title: Data for: Identification of Plant Leaf Diseases Using a 9-layer Deep Convolutional Neural Network
+DOI: 10.17632/tywbtsjrjv.1
+Version: 1
+Date Published: 2019-04-18
+Authors: J. Arun Pandian, Geetharamani Gopal
+Repository URL: https://data.mendeley.com/datasets/tywbtsjrjv/1
+
+Platform Stated License: CC0 1.0 Universal (Public Domain Dedication)
+URL: http://creativecommons.org/publicdomain/zero/1.0/
+
+CREATIVE COMMONS CC0 1.0 UNIVERSAL SUMMARY:
+The person who associated a work with this deed has dedicated the work to the
+public domain by waiving all of his or her rights to the work worldwide under
+copyright law, including all related and neighboring rights, to the extent
+allowed by law. You can copy, modify, distribute and perform the work, even for
+commercial purposes, all without asking permission.
+
+*Note on Upstream Licensing*:
+The raw images contained in this repository originate from the original PlantVillage
+collection curated by David P. Hughes and Marcel Salathe (Penn State University / EPFL, 2015),
+which was distributed under Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0).
+For academic and legal rigor, AgriMind AI adheres to the upstream CC BY-SA 3.0 provisions
+and provides full scholarly attribution to both the original creators and the Mendeley processors.
+================================================================================

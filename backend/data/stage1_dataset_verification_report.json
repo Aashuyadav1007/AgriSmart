@@ -1,0 +1,272 @@
+{
+  "status": "STAGE_1_VERIFIED",
+  "timestamp": "2026-11-16 09:00:30",
+  "total_classes": 42,
+  "plantvillage_classes_count": 38,
+  "cotton_classes_count": 4,
+  "total_images_verified": 54368,
+  "corrupted_images_count": 0,
+  "exact_duplicate_clusters": 21,
+  "train_samples": 38094,
+  "val_samples": 8137,
+  "test_samples": 8137,
+  "class_statistics": {
+    "Apple___Apple_scab": {
+      "index": 0,
+      "source": "PlantVillage",
+      "valid_image_count": 630,
+      "is_healthy": false
+    },
+    "Apple___Black_rot": {
+      "index": 1,
+      "source": "PlantVillage",
+      "valid_image_count": 621,
+      "is_healthy": false
+    },
+    "Apple___Cedar_apple_rust": {
+      "index": 2,
+      "source": "PlantVillage",
+      "valid_image_count": 275,
+      "is_healthy": false
+    },
+    "Apple___healthy": {
+      "index": 3,
+      "source": "PlantVillage",
+      "valid_image_count": 1645,
+      "is_healthy": true
+    },
+    "Blueberry___healthy": {
+      "index": 4,
+      "source": "PlantVillage",
+      "valid_image_count": 1502,
+      "is_healthy": true
+    },
+    "Cherry___Powdery_mildew": {
+      "index": 5,
+      "source": "PlantVillage",
+      "valid_image_count": 1052,
+      "is_healthy": false
+    },
+    "Cherry___healthy": {
+      "index": 6,
+      "source": "PlantVillage",
+      "valid_image_count": 854,
+      "is_healthy": true
+    },
+    "Corn___Cercospora_leaf_spot Gray_leaf_spot": {
+      "index": 7,
+      "source": "PlantVillage",
+      "valid_image_count": 513,
+      "is_healthy": false
+    },
+    "Corn___Common_rust": {
+      "index": 8,
+      "source": "PlantVillage",
+      "valid_image_count": 1192,
+      "is_healthy": false
+    },
+    "Corn___Northern_Leaf_Blight": {
+      "index": 9,
+      "source": "PlantVillage",
+      "valid_image_count": 985,
+      "is_healthy": false
+    },
+    "Corn___healthy": {
+      "index": 10,
+      "source": "PlantVillage",
+      "valid_image_count": 1162,
+      "is_healthy": true
+    },
+    "Cotton___Bacterial_blight": {
+      "index": 11,
+      "source": "Cotton_Kaggle",
+      "valid_image_count": 16,
+      "is_healthy": false
+    },
+    "Cotton___Powdery_mildew": {
+      "index": 12,
+      "source": "Cotton_Kaggle",
+      "valid_image_count": 16,
+      "is_healthy": false
+    },
+    "Cotton___Target_spot": {
+      "index": 13,
+      "source": "Cotton_Kaggle",
+      "valid_image_count": 15,
+      "is_healthy": false
+    },
+    "Cotton___healthy": {
+      "index": 14,
+      "source": "Cotton_Kaggle",
+      "valid_image_count": 16,
+      "is_healthy": true
+    },
+    "Grape___Black_rot": {
+      "index": 15,
+      "source": "PlantVillage",
+      "valid_image_count": 1180,
+      "is_healthy": false
+    },
+    "Grape___Esca_(Black_Measles)": {
+      "index": 16,
+      "source": "PlantVillage",
+      "valid_image_count": 1383,
+      "is_healthy": false
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+      "index": 17,
+      "source": "PlantVillage",
+      "valid_image_count": 1076,
+      "is_healthy": false
+    },
+    "Grape___healthy": {
+      "index": 18,
+      "source": "PlantVillage",
+      "valid_image_count": 423,
+      "is_healthy": true
+    },
+    "Orange___Haunglongbing_(Citrus_greening)": {
+      "index": 19,
+      "source": "PlantVillage",
+      "valid_image_count": 5507,
+      "is_healthy": false
+    },
+    "Peach___Bacterial_spot": {
+      "index": 20,
+      "source": "PlantVillage",
+      "valid_image_count": 2297,
+      "is_healthy": false
+    },
+    "Peach___healthy": {
+      "index": 21,
+      "source": "PlantVillage",
+      "valid_image_count": 360,
+      "is_healthy": true
+    },
+    "Pepper,_bell___Bacterial_spot": {
+      "index": 22,
+      "source": "PlantVillage",
+      "valid_image_count": 997,
+      "is_healthy": false
+    },
+    "Pepper,_bell___healthy": {
+      "index": 23,
+      "source": "PlantVillage",
+      "valid_image_count": 1478,
+      "is_healthy": true
+    },
+    "Potato___Early_blight": {
+      "index": 24,
+      "source": "PlantVillage",
+      "valid_image_count": 1000,
+      "is_healthy": false
+    },
+    "Potato___Late_blight": {
+      "index": 25,
+      "source": "PlantVillage",
+      "valid_image_count": 1000,
+      "is_healthy": false
+    },
+    "Potato___healthy": {
+      "index": 26,
+      "source": "PlantVillage",
+      "valid_image_count": 152,
+      "is_healthy": true
+    },
+    "Raspberry___healthy": {
+      "index": 27,
+      "source": "PlantVillage",
+      "valid_image_count": 371,
+      "is_healthy": true
+    },
+    "Soybean___healthy": {
+      "index": 28,
+      "source": "PlantVillage",
+      "valid_image_count": 5090,
+      "is_healthy": true
+    },
+    "Squash___Powdery_mildew": {
+      "index": 29,
+      "source": "PlantVillage",
+      "valid_image_count": 1835,
+      "is_healthy": false
+    },
+    "Strawberry___Leaf_scorch": {
+      "index": 30,
+      "source": "PlantVillage",
+      "valid_image_count": 1109,
+      "is_healthy": false
+    },
+    "Strawberry___healthy": {
+      "index": 31,
+      "source": "PlantVillage",
+      "valid_image_count": 456,
+      "is_healthy": true
+    },
+    "Tomato___Bacterial_spot": {
+      "index": 32,
+      "source": "PlantVillage",
+      "valid_image_count": 2127,
+      "is_healthy": false
+    },
+    "Tomato___Early_blight": {
+      "index": 33,
+      "source": "PlantVillage",
+      "valid_image_count": 1000,
+      "is_healthy": false
+    },
+    "Tomato___Late_blight": {
+      "index": 34,
+      "source": "PlantVillage",
+      "valid_image_count": 1909,
+      "is_healthy": false
+    },
+    "Tomato___Leaf_Mold": {
+      "index": 35,
+      "source": "PlantVillage",
+      "valid_image_count": 952,
+      "is_healthy": false
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "index": 36,
+      "source": "PlantVillage",
+      "valid_image_count": 1771,
+      "is_healthy": false
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "index": 37,
+      "source": "PlantVillage",
+      "valid_image_count": 1676,
+      "is_healthy": false
+    },
+    "Tomato___Target_Spot": {
+      "index": 38,
+      "source": "PlantVillage",
+      "valid_image_count": 1404,
+      "is_healthy": false
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "index": 39,
+      "source": "PlantVillage",
+      "valid_image_count": 5357,
+      "is_healthy": false
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "index": 40,
+      "source": "PlantVillage",
+      "valid_image_count": 373,
+      "is_healthy": false
+    },
+    "Tomato___healthy": {
+      "index": 41,
+      "source": "PlantVillage",
+      "valid_image_count": 1591,
+      "is_healthy": true
+    }
+  },
+  "staging_path": "C:\\Users\\DELL\\OneDrive\\Desktop\\Crop-Yield-Predication\\CropYieldApp\\CropYieldApp\\backend\\data\\consolidated_staging_42_classes",
+  "plantvillage_source_path": "C:\\Users\\DELL\\OneDrive\\Desktop\\Crop-Yield-Predication\\CropYieldApp\\CropYieldApp\\backend\\data\\plantvillage_mendeley_extracted\\Plant_leave_diseases_dataset_without_augmentation",
+  "archive_file": "C:\\Users\\DELL\\OneDrive\\Desktop\\Crop-Yield-Predication\\CropYieldApp\\CropYieldApp\\backend\\data\\downloads\\Plant_leaf_diseases_dataset_without_augmentation.zip",
+  "archive_sha256": "ac3432453984d02a86197987e775a5429d0d59e7cc7c35bcf5a8f50349b90ff0",
+  "authoritative_license": "CC BY-SA 3.0 (Hughes & Salathe, 2015) / Platform Metadata CC0 1.0 (Pandian & Gopal, 2019)"
+}

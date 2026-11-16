@@ -1,0 +1,30 @@
+================================================================================
+ORIGINAL PLANTVILLAGE DATASET LICENSE DOCUMENTATION
+================================================================================
+Foundational Project: PlantVillage
+Primary Authors: David P. Hughes (Pennsylvania State University) & Marcel Salathe (EPFL)
+Foundational Reference:
+  Hughes, D. P., & Salathe, M. (2015). "An open access repository of images on
+  plant health to enable the development of mobile disease diagnostics."
+  arXiv preprint arXiv:1511.08060.
+Benchmark Reference:
+  Mohanty, S. P., Hughes, D. P., & Salathe, M. (2016). "Using deep learning for
+  image-based plant disease detection." Frontiers in Plant Science, 7, 1419.
+
+License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License Deed: https://creativecommons.org/licenses/by-sa/3.0/
+Legal Code: https://creativecommons.org/licenses/by-sa/3.0/legalcode
+
+TERMS AND CONDITIONS SUMMARY:
+You are free to:
+- Share: copy and redistribute the material in any medium or format.
+- Adapt: remix, transform, and build upon the material for any purpose, even commercially.
+
+Under the following terms:
+- Attribution (BY): You must give appropriate credit, provide a link to the license,
+  and indicate if changes were made.
+- ShareAlike (SA): If you remix, transform, or build upon the material, you must
+  distribute your contributions under the same license as the original.
+- No additional restrictions: You may not apply legal terms or technological measures
+  that legally restrict others from doing anything the license permits.
+================================================================================

@@ -1,0 +1,188 @@
+[
+  {
+    "topic": "Wheat cultivation basics",
+    "category": "crop",
+    "keywords": ["wheat", "rabi", "winter crop", "cereal", "cultivation"],
+    "content": "Wheat (Triticum aestivum) is a rabi (winter) crop sown between October–December and harvested in March–April. Optimal temperature ranges from 10–25°C during growing season. Requires well-drained loam or clay-loam soil with pH 6.0–7.5. Water requirement is 450–650 mm per season spread over 4–6 irrigations. Key growth stages needing irrigation: crown root initiation (CRI, 20–25 DAS), tillering (40–45 DAS), jointing (60–65 DAS), flowering (80–85 DAS), and grain filling (100–110 DAS). Seed rate: 100–125 kg/ha for timely sowing; 125–150 kg/ha for late sowing."
+  },
+  {
+    "topic": "Rice cultivation basics",
+    "category": "crop",
+    "keywords": ["rice", "paddy", "kharif", "transplanting", "nursery"],
+    "content": "Rice (Oryza sativa) is primarily a kharif (summer/monsoon) crop transplanted June–July and harvested October–November. Requires standing water (2–5 cm) during the vegetative phase. Optimal temperature: 20–35°C; cannot tolerate frost. Best in heavy clay or clay-loam soils with high water-retention. Water requirement: 1200–2000 mm per season. Seed rate for direct seeding: 20–25 kg/ha; for transplanting, nursery requires 20 kg/ha. Key varieties in India: IR-36, Pusa Basmati-1121, Swarna, MTU-7029."
+  },
+  {
+    "topic": "Maize cultivation basics",
+    "category": "crop",
+    "keywords": ["maize", "corn", "kharif", "rabi", "fodder", "grain"],
+    "content": "Maize (Zea mays) can be grown in both kharif (June–July) and rabi (October–November) seasons. Requires well-drained loam soil; waterlogging is fatal. Optimal temperature: 18–32°C. Water requirement: 400–600 mm. Sensitive to waterlogging and frost. Seed rate: 20–25 kg/ha for grain purpose. High-yielding hybrids: NK-6240, DKC-9144, Pioneer 3522. Maize is rich in carbohydrates and widely used for food, feed, and starch industries."
+  },
+  {
+    "topic": "Cotton cultivation basics",
+    "category": "crop",
+    "keywords": ["cotton", "kharif", "fiber", "desi", "BT cotton", "bollworm"],
+    "content": "Cotton (Gossypium hirsutum) is a kharif crop sown in April–May and harvested in October–December. Requires deep black cotton soil (vertisol) or alluvial soil with pH 5.5–8.5. Optimal temperature: 20–30°C with 150–1200 mm rainfall. Water requirement: 700–1200 mm. Bt cotton hybrids dominate commercial cultivation and provide resistance to bollworm. Seed rate: 2.5 kg/ha for Bt cotton. Major pest: pink bollworm, whitefly, thrips. Requires careful integrated pest management."
+  },
+  {
+    "topic": "Soybean cultivation basics",
+    "category": "crop",
+    "keywords": ["soybean", "soya", "legume", "oilseed", "kharif", "nitrogen fixation"],
+    "content": "Soybean (Glycine max) is a kharif oilseed and protein crop sown in June–July. It fixes atmospheric nitrogen through Rhizobium symbiosis, reducing fertilizer need. Requires well-drained loam soil, pH 6.0–7.0. Optimal temperature: 25–32°C with 500–900 mm rainfall. Seed rate: 70–80 kg/ha. Key varieties: JS-335, NRC-37, MACS-58. Major disease: soybean rust, yellow mosaic virus. Seed treatment with Rhizobium + PSB (phosphate-solubilizing bacteria) is recommended."
+  },
+  {
+    "topic": "Barley cultivation basics",
+    "category": "crop",
+    "keywords": ["barley", "jau", "rabi", "malt", "cereal", "drought tolerant"],
+    "content": "Barley (Hordeum vulgare) is a rabi crop sown in October–November and harvested in March–April. It is the most drought and salt-tolerant cereal. Requires sandy loam to loam soil, pH 6.5–8.0. Optimal temperature: 7–15°C for germination, 15–25°C for growth. Water requirement: 300–450 mm (3–4 irrigations). Seed rate: 80–100 kg/ha. Used for malt production (beer, whisky), animal feed, and food. Key varieties: RD-2794, PL-751, BH-393."
+  },
+  {
+    "topic": "Sandy soil characteristics and crop suitability",
+    "category": "soil",
+    "keywords": ["sandy soil", "light soil", "drainage", "low fertility"],
+    "content": "Sandy soil has large particles, high permeability, low water and nutrient retention. pH typically 5.5–7.0. Suitable crops: groundnut, watermelon, sweet potato, cassava, some millets. Poor for paddy rice (requires waterlogging). Requires frequent, light irrigation (drip irrigation ideal). Organic matter (FYM, compost) additions are critical to improve fertility. Can warm up quickly in spring, allowing early sowing."
+  },
+  {
+    "topic": "Loam soil characteristics and crop suitability",
+    "category": "soil",
+    "keywords": ["loam soil", "best soil", "balanced texture", "fertile"],
+    "content": "Loam soil is a balanced mixture of sand, silt, and clay (40:40:20 ratio). It has excellent water retention, drainage, and aeration — considered the ideal agricultural soil. pH typically 6.0–7.0. Suitable for almost all crops: wheat, maize, vegetables, fruits, cotton, soybean. Good nutrient retention means fertilizers are used efficiently. Easy to till and cultivate."
+  },
+  {
+    "topic": "Clay soil characteristics and crop suitability",
+    "category": "soil",
+    "keywords": ["clay soil", "heavy soil", "waterlogging", "rice", "vertisol"],
+    "content": "Clay soil has fine particles, very high water and nutrient retention, but poor aeration and drainage. pH typically 5.0–7.0. Best for rice (paddy) which needs waterlogging, sugarcane, and cotton (black cotton soil / vertisol is clay-rich). Problematic for root crops (carrot, potato), coarse cereals, and waterlogging-sensitive crops. Needs deep ploughing and organic matter to improve structure."
+  },
+  {
+    "topic": "Silt soil characteristics",
+    "category": "soil",
+    "keywords": ["silt soil", "alluvial", "fertile", "riverine"],
+    "content": "Silt soil has medium-fine particles with good water retention and moderate drainage. Very fertile — alluvial soils of river plains are silt-dominant. pH typically 6.0–7.0. Excellent for vegetables, wheat, rice, sugarcane, and most food crops. Can form a hard crust when dry (poor for direct-seeded crops). Found in Indo-Gangetic plains — most productive agricultural region of India."
+  },
+  {
+    "topic": "Peaty soil characteristics",
+    "category": "soil",
+    "keywords": ["peaty soil", "organic soil", "acidic", "bog", "waterlogged"],
+    "content": "Peaty soil is rich in organic matter (>20%), formed in waterlogged or bog conditions. Very acidic (pH 3.5–5.5), dark colored, spongy texture. Requires liming to raise pH before cultivation. Suitable for acid-tolerant crops like blueberries, cranberries, some vegetables after pH correction. Naturally fertile once pH corrected; retains moisture well. Rare in India; found in some mountain valleys."
+  },
+  {
+    "topic": "Chalky soil characteristics",
+    "category": "soil",
+    "keywords": ["chalky soil", "alkaline", "limestone", "calcium carbonate"],
+    "content": "Chalky soil is rich in calcium carbonate (CaCO3), very alkaline (pH 7.5–8.5), free-draining. Causes iron and manganese deficiency (chlorosis) in plants. Suitable for barley, brassicas (cabbage, cauliflower), spinach, beets. Poor for acid-loving crops (blueberry, potato, strawberry). Requires chelated micronutrient application. Sulphur application can reduce pH. Limited organic matter unless regularly amended."
+  },
+  {
+    "topic": "NPK fertilizer basics and recommendations",
+    "category": "fertilizer",
+    "keywords": ["npk", "nitrogen", "phosphorus", "potassium", "fertilizer", "urea", "DAP"],
+    "content": "NPK refers to Nitrogen (N), Phosphorus (P), and Potassium (K) — the three primary macronutrients. Nitrogen (urea 46% N) promotes vegetative growth and green color. Phosphorus (DAP — diammonium phosphate, 18%N + 46%P2O5) promotes root development and flowering. Potassium (MOP — muriate of potash, 60% K2O) strengthens cell walls and disease resistance. General crop recommendations (kg/ha): Wheat N:P:K = 120:60:40; Rice = 120:60:60; Maize = 150:75:40; Cotton = 180:80:60. Split application of nitrogen (1/3 basal + 1/3 at tillering + 1/3 at anthesis for wheat) improves efficiency and reduces leaching."
+  },
+  {
+    "topic": "Organic fertilizers and soil health",
+    "category": "fertilizer",
+    "keywords": ["organic fertilizer", "compost", "FYM", "vermicompost", "biofertilizer", "green manure"],
+    "content": "Organic fertilizers improve long-term soil health by adding organic matter, improving structure, and feeding beneficial microorganisms. Farm Yard Manure (FYM): 10–15 tons/ha applied 3–4 weeks before sowing. Vermicompost: 2–4 tons/ha; has 2× more N and K than FYM, releases nutrients slowly. Green manure (dhaincha, sunhemp): ploughed in at 45–50 days, adds 60–80 kg N/ha equivalent. Neem cake (1 ton/ha): repels soil pests and adds N. Biofertilizers: Rhizobium (legumes), Azotobacter (cereals), PSB (phosphate solubilization). Combining 50% organic + 50% inorganic fertilizer (integrated nutrient management) is recommended for sustainable farming."
+  },
+  {
+    "topic": "Micronutrient deficiencies and corrections",
+    "category": "fertilizer",
+    "keywords": ["zinc", "iron", "boron", "micronutrient", "deficiency", "chlorosis"],
+    "content": "Zinc (Zn) deficiency ('khaira' in rice): leaves show brown rust-like spots, stunted growth. Apply zinc sulfate @ 25 kg/ha as basal dose. Iron (Fe) deficiency: interveinal chlorosis (yellowing between veins). Apply ferrous sulfate @ 20 kg/ha or foliar spray. Boron deficiency: affects flowering and fruiting; apply borax @ 10 kg/ha for cotton/vegetable crops. Manganese deficiency: pale green interveinal chlorosis in oats/cereals on alkaline soils. Apply manganese sulfate. Routine soil testing every 3 years helps detect and correct deficiencies before they affect yield."
+  },
+  {
+    "topic": "Drip irrigation system",
+    "category": "irrigation",
+    "keywords": ["drip irrigation", "micro irrigation", "water saving", "fertigation"],
+    "content": "Drip irrigation delivers water directly to the root zone through emitters, reducing evaporation losses by 40–60% compared to flood irrigation. Suitable for vegetables, fruits, cotton, sugarcane. Water use efficiency is highest (90–95%). Enables fertigation (injecting dissolved fertilizers through the drip system), reducing fertilizer use by 20–30%. Initial investment: ₹60,000–1,20,000/ha but government subsidy covers 55–90% under PMKSY (Pradhan Mantri Krishi Sinchayee Yojana). Requires filtered water to prevent clogging."
+  },
+  {
+    "topic": "Sprinkler irrigation system",
+    "category": "irrigation",
+    "keywords": ["sprinkler", "overhead irrigation", "rain gun", "water efficiency"],
+    "content": "Sprinkler irrigation sprays water over the crop like rainfall through nozzles. Water use efficiency: 70–85%. Suitable for wheat, maize, vegetables, groundnut on undulating land where flood irrigation is difficult. Not suitable for heavy clay soils (runoff) or crops sensitive to leaf wetness (increases fungal disease risk). Rain gun sprinklers cover large areas (10–15 m radius). Government subsidy available under PMKSY. Reduces soil erosion compared to flood irrigation."
+  },
+  {
+    "topic": "Flood irrigation and furrow irrigation",
+    "category": "irrigation",
+    "keywords": ["flood irrigation", "furrow irrigation", "surface irrigation", "paddy"],
+    "content": "Flood/furrow irrigation is the oldest and most common method in India. Water flows by gravity along furrows between crop rows or across the field. Water use efficiency: 40–50% (high losses due to evaporation and percolation). Best for paddy rice, sugarcane, and field crops on level land. Cheap to set up but wastes water. Furrow irrigation (water in channels between rows) is more efficient than flat flooding. Recommended to level land (laser levelling) to improve uniformity and save 20–30% water."
+  },
+  {
+    "topic": "Integrated Pest Management principles",
+    "category": "pest_management",
+    "keywords": ["IPM", "pest management", "biological control", "pesticide", "neem"],
+    "content": "Integrated Pest Management (IPM) combines biological, cultural, mechanical, and chemical controls to minimize pesticide use while maintaining crop protection. Key principles: 1) Monitor pest populations (economic threshold level, ETL) before spraying. 2) Use resistant varieties. 3) Biological control: release natural enemies (Trichogramma parasitoid wasps for bollworm), use Beauveria bassiana (entomopathogenic fungus). 4) Cultural control: crop rotation, deep ploughing, trap crops. 5) Mechanical: yellow sticky traps, pheromone traps, light traps. 6) Chemical: use pesticides only when pest exceeds ETL, prefer biopesticides (neem-based, Bt sprays) over broad-spectrum chemicals. Reduces input cost by 20–40%."
+  },
+  {
+    "topic": "Tomato early blight disease",
+    "category": "disease",
+    "keywords": ["tomato", "early blight", "alternaria", "leaf spot", "blight"],
+    "content": "Tomato early blight (Alternaria solani) causes dark brown target-like concentric ring lesions on older leaves. Disease spreads in warm (24–30°C), humid conditions with leaf wetness. Management: remove infected leaves; apply copper-based fungicide (copper oxychloride 3g/L) or mancozeb (2.5g/L) every 7–10 days. Organic: neem oil spray (5ml/L), trichoderma-based products. Resistant varieties: Pusa Gaurav, Arka Vikas. Avoid overhead irrigation; maintain plant spacing for good airflow. Source: ICAR-IIHR guidelines."
+  },
+  {
+    "topic": "Tomato late blight disease",
+    "category": "disease",
+    "keywords": ["tomato", "late blight", "phytophthora", "water mold", "blight"],
+    "content": "Tomato late blight (Phytophthora infestans) causes large, irregular, water-soaked lesions on leaves and fruit, with white sporulation on undersides in humid weather. Very destructive; can destroy a crop in days. Management: apply metalaxyl + mancozeb (Ridomil Gold) at first symptom; switch to cymoxanil + mancozeb (Curzate M8) for resistance management. Organic: copper hydroxide (Kocide) spray. Destroy infected crop debris; use certified disease-free transplants. Grows rapidly below 20°C with high humidity."
+  },
+  {
+    "topic": "Tomato bacterial spot disease",
+    "category": "disease",
+    "keywords": ["tomato", "bacterial spot", "xanthomonas", "leaf spot", "bacteria"],
+    "content": "Tomato bacterial spot (Xanthomonas vesicatoria) causes small, water-soaked, angular spots on leaves and scabby lesions on fruit. Spreads by rain splash and wind. Management: copper bactericide (copper hydroxide or copper sulfate + mancozeb) every 5–7 days during wet conditions. Avoid overhead irrigation. Use certified pathogen-free seed; seed treatment with hot water (52°C, 30 min) reduces seed-borne infection. No cure once severely infected — remove and destroy plants. Resistant varieties help reduce impact."
+  },
+  {
+    "topic": "Potato early blight disease",
+    "category": "disease",
+    "keywords": ["potato", "early blight", "alternaria", "leaf blight"],
+    "content": "Potato early blight (Alternaria solani) produces small, dark brown spots with concentric rings on leaves. Affects lower, older leaves first. Favored by warm days (25–30°C) and cool nights with heavy dew. Apply mancozeb (2.5g/L) or chlorothalonil at 10-day intervals. Organic: Bordeaux mixture (copper sulfate + lime). Proper crop rotation (avoid planting potato where tomato/brinjal grown previously) reduces inoculum buildup. Destroy infected debris after harvest."
+  },
+  {
+    "topic": "Potato late blight disease",
+    "category": "disease",
+    "keywords": ["potato", "late blight", "phytophthora", "destruction", "1845 famine"],
+    "content": "Potato late blight (Phytophthora infestans) is the most devastating potato disease, historically causing the 1845 Irish famine. Causes rapid browning of leaves and stems, with white mold undersides in humid conditions. Management: apply preventive fungicides before symptoms — metalaxyl + mancozeb (Ridomil Gold) or propamocarb + fenamidone. Organic: copper-based fungicides (Bordeaux mixture). Plant certified disease-free tubers; hill properly to protect tubers. Optimal blight conditions: temperature 10–20°C, relative humidity >90%, leaf wetness >12 hours."
+  },
+  {
+    "topic": "Corn common rust disease",
+    "category": "disease",
+    "keywords": ["corn", "maize", "rust", "puccinia", "pustules", "fungal"],
+    "content": "Corn/maize common rust (Puccinia sorghi) produces small, oval, cinnamon-brown pustules on both leaf surfaces containing urediospores. Pustules turn dark brown-black at later stages. Favored by cool temperatures (16–23°C) and high humidity. Management: plant resistant hybrids (most commercial hybrids have moderate resistance); apply propiconazole (Tilt 25 EC) at 1 ml/L if >50% leaves affected before tasseling. Organic: sulfur dust application. Rotate crops; control volunteer corn plants. Rarely causes economic damage in hot climates."
+  },
+  {
+    "topic": "Soil testing and interpretation",
+    "category": "soil",
+    "keywords": ["soil test", "pH", "fertility", "macronutrient", "soil sample"],
+    "content": "Soil testing is essential for efficient fertilizer use. Collect samples from 0–15 cm depth (for surface application nutrients) and 15–30 cm (for subsoil diagnosis). Take 10–15 subsamples per field and mix to form a composite sample. Key parameters: pH (ideal 6.0–7.5 for most crops), EC (electrical conductivity, <1 dS/m for most crops), organic carbon (>0.75% = medium; >1.5% = high), available N, P, K. Send to nearest Soil Testing Laboratory (STL) or Krishi Vigyan Kendra. Government Soil Health Card Scheme provides free testing for farmers. Retest every 3 years or after a major change in crop rotation."
+  },
+  {
+    "topic": "Crop rotation benefits",
+    "category": "crop",
+    "keywords": ["crop rotation", "soil health", "disease break", "nitrogen", "sequential cropping"],
+    "content": "Crop rotation involves growing different crops on the same land sequentially. Benefits: 1) Breaks pest and disease cycles (pests adapted to one crop starve). 2) Nitrogen management: legumes (soybean, groundnut, chickpea) fix 50–200 kg N/ha, reducing fertilizer cost for the next cereal crop. 3) Weed suppression: different crops compete differently with weeds, reducing weed pressure. 4) Improves soil structure: deep-rooted crops break compaction layers. Classic rotations: Wheat–Rice (Indo-Gangetic), Maize–Wheat–Mung bean, Cotton–Wheat. Avoid rotating crops from the same family (tomato–potato–brinjal all solanaceous)."
+  },
+  {
+    "topic": "Post-harvest storage and grain management",
+    "category": "crop",
+    "keywords": ["post harvest", "storage", "grain", "moisture", "warehouse", "silos"],
+    "content": "Post-harvest losses in India are 10–15% for cereals and up to 30% for fruits/vegetables. For grain storage: dry to safe moisture content (wheat <12%, rice <14%, maize <13.5%) before storage to prevent fungal growth. Use hermetic (airtight) bags, PAD/PICS bags, or metal silos for small farmers. Large-scale: CAP (covered and plinth) or conventional godowns. Control storage pests with aluminum phosphide fumigation (only by licensed operators) or botanical repellents (neem leaves). Keep storage area clean, dry, and rodent-proof. Check moisture monthly during long-term storage."
+  },
+  {
+    "topic": "Climate-smart agriculture and adaptation strategies",
+    "category": "crop",
+    "keywords": ["climate change", "heat stress", "drought", "adaptation", "resilience", "climate smart"],
+    "content": "Climate-smart agriculture (CSA) aims to increase productivity, improve resilience to climate change, and reduce greenhouse gas emissions. Key strategies for Indian farmers: 1) Use heat-tolerant and drought-resistant varieties (HD-3086 wheat for heat tolerance; DRR Dhan-50 for drought-tolerant rice). 2) Shift sowing dates to avoid peak heat/cold stress. 3) Conservation agriculture: zero tillage/minimum tillage reduces carbon emissions and conserves soil moisture. 4) System of Rice Intensification (SRI) reduces water use by 25–50%. 5) Agroforestry: plant trees (Eucalyptus, Poplar, Subabul) on bunds to reduce temperature and diversify income. 6) Crop insurance under PMFBY (Pradhan Mantri Fasal Bima Yojana)."
+  },
+  {
+    "topic": "Common fertilizer application mistakes to avoid",
+    "category": "fertilizer",
+    "keywords": ["fertilizer mistakes", "over fertilization", "burning", "leaching", "timing"],
+    "content": "Common fertilizer mistakes: 1) Over-application of urea causes leaf burn and ammonia toxicity; excess nitrogen leaches into groundwater (nitrate pollution). 2) Applying phosphorus (DAP/SSP) on alkaline soils without soil test wastes money as P fixes to Ca at high pH. 3) Broadcasting fertilizer before heavy rain causes runoff losses. 4) Applying all nitrogen as basal dose instead of split doses (60% can be lost by leaching). 5) Not incorporating organic matter before chemical fertilizers reduces synergism. 6) Ignoring secondary nutrients (S, Ca, Mg) and micronutrients — wheat and maize commonly need zinc. Always base fertilizer doses on soil test results and crop-specific recommendations."
+  },
+  {
+    "topic": "Rain-fed farming and water harvesting",
+    "category": "irrigation",
+    "keywords": ["rain-fed", "dryland", "water harvesting", "pond", "watershed", "in-situ moisture"],
+    "content": "About 60% of India's cultivated area is rain-fed. Key management practices: 1) In-situ moisture conservation: tied ridges, contour bunds, bunded nursery beds to hold rainwater where it falls. 2) Watershed development: check dams, percolation ponds, farm ponds to harvest runoff. 3) Farm ponds (3m × 3m × 2m minimum): store 15,000–20,000 L for one critical irrigation in dryspell. 4) Selection of drought-tolerant crops and varieties (sorghum, pearl millet, groundnut better than rice/maize in low-rainfall zones). 5) Mulching: crop residue mulch reduces evaporation by 20–30%. 6) Minimum tillage to preserve soil structure and moisture. These practices can stabilize yield even in years with 30% rainfall deficiency."
+  }
+]
