@@ -40,7 +40,7 @@ Indian agriculture faces compounding systemic challenges:
 4. **Information Disconnect**: Scientific agronomic advisories from Indian Council of Agricultural Research (ICAR) and State Agricultural Universities (SAUs) are often inaccessible to smallholder farmers at field decision points.
 
 ### AgriSmart Solution
-AgriMind AI delivers an end-to-end, multi-modal intelligence hub that unifies:
+AgriSmart delivers an end-to-end, multi-modal intelligence hub that unifies:
 * **Dual-Model Yield Prediction** (Random Forest & TensorFlow DNN) with regional consensus scoring.
 * **12-Class Plant Disease Vision Diagnosis** (Cotton, Tomato, Potato, Corn) backed by Shannon entropy Out-of-Distribution (OOD) rejection.
 * **District-Level Real-Time Weather & 7-Day Numerical Forecasts** using Open-Meteo APIs across 143 verified Indian agricultural districts (including all 55 districts of Madhya Pradesh).
