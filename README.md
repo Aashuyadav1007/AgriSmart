@@ -350,6 +350,19 @@ AgriSmart includes comprehensive documentation specifically prepared for final-y
 
 ---
 
+## 📜 Project Changelog & Recent Updates
+
+A detailed release log of all architectural improvements, benchmarks, and model calibrations is available in **[CHANGELOG.md](file:///CHANGELOG.md)**.
+
+### Summary of Recent Upgrades (v2.0.0):
+* **Project Rebranding**: Upgraded brand name to **AgriSmart** across all frontend UI layouts, navigation bars, SVG vector logos, backend endpoints, and academic defense guides.
+* **Universal Foliar Computer Vision Engine**: Enhanced PyTorch MobileNetV2 with Shannon Entropy Out-of-Distribution (OOD) rejection, non-plant image filtering, and organ discrimination (tuber/root vs. foliar leaf).
+* **Trilingual GenAI Extension Assistant**: Real-time SSE line-by-line token streaming powered by **Google Gemini 2.0 Flash** with a 31-topic ICAR agricultural vector knowledge base (RAG) supporting English, हिन्दी (Devanagari), and Hinglish (Roman script).
+* **Agro-Meteorology & MP District Geocoding**: Live Open-Meteo telemetry across all 55 administrative districts of Madhya Pradesh and 143 major agricultural districts across India.
+* **Dual-Model Yield Consensus**: Random Forest ($R^2 = 0.9144$) and TensorFlow DNN ($R^2 = 0.9114$) with real-time agreement percentage and multi-unit conversions (`kg/ha`, `ton/ha`, `quintal/acre`, `bigha`).
+
+---
+
 ## 📜 Attributions & Disclaimers
 
 * **Weather Attribution**: Weather data by [Open-Meteo.com](https://open-meteo.com/) licensed under CC BY 4.0.
