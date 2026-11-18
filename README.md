@@ -1,4 +1,4 @@
-# AgriMind AI – AI-Powered Smart Agriculture Intelligence System
+# AgriSmart  – AI-Powered Smart Agriculture Intelligence System
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688.svg)](https://fastapi.tiangolo.com/)
@@ -39,7 +39,7 @@ Indian agriculture faces compounding systemic challenges:
 3. **Misdiagnosis of Foliar Plant Pathogens**: Standard Softmax neural networks force confident predictions on unseen crops (e.g. misclassifying Cotton as Corn rust), resulting in incorrect pesticide application.
 4. **Information Disconnect**: Scientific agronomic advisories from Indian Council of Agricultural Research (ICAR) and State Agricultural Universities (SAUs) are often inaccessible to smallholder farmers at field decision points.
 
-### AgriMind AI Solution
+### AgriSmart Solution
 AgriMind AI delivers an end-to-end, multi-modal intelligence hub that unifies:
 * **Dual-Model Yield Prediction** (Random Forest & TensorFlow DNN) with regional consensus scoring.
 * **12-Class Plant Disease Vision Diagnosis** (Cotton, Tomato, Potato, Corn) backed by Shannon entropy Out-of-Distribution (OOD) rejection.
@@ -52,7 +52,7 @@ AgriMind AI delivers an end-to-end, multi-modal intelligence hub that unifies:
 
 ## 🎨 Stage 6 Unified Frontend Architecture
 
-AgriMind AI features an enterprise-grade SaaS interface designed for desktops, laptops, tablets, and smartphones:
+AgriSmart features an enterprise-grade SaaS interface designed for desktops, laptops, tablets, and smartphones:
 
 * **Desktop Navigation Sidebar**: Fixed collapsible navigation drawer with brand identity, live model status indicators, active tab badges, and quick links.
 * **Sticky Top Header Bar**: Real-time regional meteorological telemetry badge (`Temperature °C`, `Wind km/h`), breadcrumb trail, and verified AI indicator.
@@ -333,7 +333,7 @@ python validate_real_world.py
 
 ## 🎓 Stage 7 Launch, Defense & Deployment Guides
 
-AgriMind AI includes comprehensive documentation specifically prepared for final-year major project submission, viva defense, and zero-cost cloud deployment:
+AgriSmart includes comprehensive documentation specifically prepared for final-year major project submission, viva defense, and zero-cost cloud deployment:
 
 * **[College Project Demonstration Script](file:///documentation/COLLEGE_DEMO_SCRIPT.md)**: A timed 5–7 minute script tailored for external examiner evaluation, with live step-by-step click sequences, speaking points for all 4 modules, and an offline fallback plan.
 * **[Comprehensive Viva Voce Preparation Guide](file:///documentation/VIVA_PREPARATION_GUIDE.md)**: 60 deep technical questions and model answers spanning ML algorithms, MobileNetV2, Shannon Entropy, OOD detection, Open-Meteo, Gemini RAG, and examiner curveball strategies.
