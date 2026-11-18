@@ -23,7 +23,7 @@ from services.weather_service import weather_service
 from services.crop_suitability_service import crop_suitability_service
 
 app = FastAPI(
-    title="AgriMind AI - Smart Agriculture Intelligence API",
+    title="AgriSmart - Smart Agriculture Intelligence API",
     version="2.0.0",
     description="Full-stack AI-Powered Smart Agriculture Intelligence System backend"
 )
@@ -113,7 +113,7 @@ class CropYieldRequest(BaseModel):
 def read_root():
     return {
         "status": "active",
-        "system": "AgriMind AI Platform",
+        "system": "AgriSmart Platform",
         "version": "2.0.0",
         "modules": {
             "module_1": "Crop Yield Forecasting (RF & TensorFlow)",
@@ -172,7 +172,7 @@ def legacy_predict(req: CropYieldRequest):
 @app.post("/api/yield/predict")
 def predict_yield_comparison(req: CropYieldRequest):
     """
-    AgriMind Module 1 Endpoint:
+    AgriSmart Module 1 Endpoint:
     Returns dual predictions from both Random Forest and TensorFlow models
     alongside ensemble consensus and actual stored performance metrics.
     """
@@ -283,7 +283,7 @@ def get_crop_disease_coverage():
 @app.post("/api/disease/detect")
 async def detect_plant_disease(file: UploadFile = File(...)):
     """
-    AgriMind Module 2 Endpoint:
+    AgriSmart Module 2 Endpoint:
     Upload a plant leaf image (JPEG, PNG, WEBP, max 10MB) to diagnose plant disease,
     confidence score (softmax), symptoms, and scientifically verified organic/chemical treatments.
     """
@@ -332,7 +332,7 @@ class ChatRequest(BaseModel):
 @app.post("/api/chat")
 async def farming_assistant(req: ChatRequest):
     """
-    AgriMind Module 3 Endpoint:
+    AgriSmart Module 3 Endpoint:
     Chat with the Gemini-powered AI farming assistant.
     Uses RAG with verified agricultural knowledge base.
     Supports English, Hindi, and Hinglish.
@@ -368,7 +368,7 @@ async def farming_assistant(req: ChatRequest):
 @app.post("/api/chat/stream")
 async def farming_assistant_stream(req: ChatRequest):
     """
-    AgriMind Module 3 Streaming Endpoint:
+    AgriSmart Module 3 Streaming Endpoint:
     Real-time generative token/line streaming via Server-Sent Events (SSE).
     Generates dynamic answers line-by-line in English, Hindi, or Hinglish.
     """

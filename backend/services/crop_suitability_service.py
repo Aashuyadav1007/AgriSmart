@@ -1,5 +1,5 @@
 """
-Crop Suitability Assessment Engine for AgriMind AI
+Crop Suitability Assessment Engine for AgriSmart
 Evaluates agro-meteorological suitability for major Indian crops based on:
 - Live temperature & humidity
 - Recent cumulative rainfall

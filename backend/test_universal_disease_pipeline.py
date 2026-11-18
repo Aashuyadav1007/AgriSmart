@@ -1,5 +1,5 @@
 """
-AgriMind AI - Universal Plant Disease Pipeline & Dataset Manifest Verification Suite
+AgriSmart - Universal Plant Disease Pipeline & Dataset Manifest Verification Suite
 Tests:
 1. Dataset manifest integrity for all 17 crop categories
 2. 15-section bilingual agronomic advisory completeness

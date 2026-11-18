@@ -16,7 +16,7 @@ TOTAL_SIZE = 868032562
 
 def main():
     print("=" * 75)
-    print("AgriMind AI - Direct Amazon S3 Dataset Stream (Resume Enabled)")
+    print("AgriSmart - Direct Amazon S3 Dataset Stream (Resume Enabled)")
     print(f"URL: {S3_DIRECT_URL}")
     print(f"Target file: {ZIP_PATH}")
     print(f"Expected Size: {TOTAL_SIZE:,} bytes ({TOTAL_SIZE / (1024*1024):.2f} MB)")

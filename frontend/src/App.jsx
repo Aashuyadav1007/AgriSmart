@@ -101,7 +101,7 @@ export default function App() {
           </div>
           <div>
             <span className="text-xl font-black text-gray-900 tracking-tight block leading-tight">
-              Agri<span className="text-[#2D6A4F]">Mind</span> AI
+              Agri<span className="text-[#2D6A4F]">Smart</span>
             </span>
             <span className="text-[10px] font-bold uppercase tracking-widest text-emerald-700 block">
               Precision Agro-AI
@@ -176,14 +176,14 @@ export default function App() {
             <div className="flex items-center gap-2" onClick={() => setActiveTab('overview')}>
               <Sprout className="w-6 h-6 text-[#1B4332]" />
               <span className="text-lg font-black text-gray-900 tracking-tight">
-                Agri<span className="text-[#2D6A4F]">Mind</span> AI
+                Agri<span className="text-[#2D6A4F]">Smart</span>
               </span>
             </div>
           </div>
 
           {/* Current Active Section Breadcrumb (Desktop) */}
           <div className="hidden lg:flex items-center gap-2 text-xs font-semibold text-gray-400">
-            <span>AgriMind AI</span>
+            <span>AgriSmart</span>
             <ChevronRight className="w-3.5 h-3.5 text-gray-300" />
             <span className="text-gray-900 font-bold capitalize">
               {NAV_ITEMS.find((n) => n.id === activeTab)?.label || 'Intelligence Hub'}
@@ -262,7 +262,7 @@ export default function App() {
         <footer className="hidden lg:flex items-center justify-between px-8 py-4 bg-white border-t border-gray-200/80 text-xs text-gray-500">
           <div className="flex items-center gap-2">
             <Sprout className="w-4 h-4 text-emerald-700" />
-            <span className="font-semibold text-gray-800">AgriMind AI Platform v2.0</span>
+            <span className="font-semibold text-gray-800">AgriSmart Platform v2.0</span>
             <span>• Classical ML, Deep Neural Networks, Computer Vision &amp; Gemini RAG</span>
           </div>
           <div className="flex items-center gap-4 text-gray-400">

@@ -24,7 +24,7 @@ def download_range(part_id: int, start: int, end: int, part_path: Path):
                 return part_id, (end - start + 1)
             
             req = urllib.request.Request(URL, headers={
-                "User-Agent": f"AgriMind-Downloader/{part_id}",
+                "User-Agent": f"AgriSmart-Downloader/{part_id}",
                 "Range": f"bytes={start}-{end}"
             })
             with urllib.request.urlopen(req, timeout=30) as resp, open(part_path, "wb") as f:
@@ -44,7 +44,7 @@ def download_range(part_id: int, start: int, end: int, part_path: Path):
 
 def main():
     print("=" * 75)
-    print("AgriMind AI - High-Speed Multi-Threaded Mendeley Archive Downloader")
+    print("AgriSmart - High-Speed Multi-Threaded Mendeley Archive Downloader")
     print(f"Target: {URL}")
     print(f"Total Size: {TOTAL_SIZE / (1024*1024):.2f} MB ({TOTAL_SIZE:,} bytes)")
     print(f"Parallel Workers: {NUM_WORKERS}")

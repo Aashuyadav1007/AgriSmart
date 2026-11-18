@@ -1,6 +1,6 @@
 """
 Automated Test Suite for Indian District Coordinates & Location Service
-AgriMind AI - Stage 5 Step 5 Verification
+AgriSmart - Stage 5 Step 5 Verification
 """
 
 import sys

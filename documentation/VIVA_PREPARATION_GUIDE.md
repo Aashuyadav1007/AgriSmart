@@ -1,4 +1,4 @@
-# AgriMind AI – Comprehensive Viva Voce & Defense Preparation Guide
+﻿# AgriSmart – Comprehensive Viva Voce & Defense Preparation Guide
 
 **Degree**: Bachelor of Technology (B.Tech) – Computer Science & Engineering / Information Technology  
 **Subject**: Major Project Viva Voce Examination  
@@ -20,8 +20,8 @@
 
 ## CATEGORY A: High-Level Architecture & System Design
 
-#### Q1: What is AgriMind AI, and what real-world problem does it solve?
-**Answer**: AgriMind AI is an integrated agricultural intelligence platform providing four core capabilities:
+#### Q1: What is AgriSmart, and what real-world problem does it solve?
+**Answer**: AgriSmart is an integrated agricultural intelligence platform providing four core capabilities:
 1. Dual-model crop yield prediction with ensemble consensus.
 2. 12-class plant disease diagnosis with Out-of-Distribution (OOD) uncertainty rejection.
 3. Real-time meteorological telemetry and historical climate analysis across 143 Indian districts (including all 55 MP districts).
@@ -116,7 +116,7 @@ Translating outputs into farmers' native units is essential for practical usabil
 **Answer**: **MobileNetV2** (pre-trained on ImageNet-1k).  
 **Justification**: MobileNetV2 uses **depthwise separable convolutions** and **inverted residual bottlenecks with linear bottlenecks**, reducing parameters to only ~3.5 million (compared to 25M in ResNet-50 and 138M in VGG-16). This enables sub-100ms CPU inference with high classification fidelity (~73.9% test accuracy across 12 imbalanced classes).
 
-#### Q20: What are the 12 disease classes supported by AgriMind AI?
+#### Q20: What are the 12 disease classes supported by AgriSmart?
 **Answer**:
 1. `Corn_(maize)___Common_rust_`
 2. `Corn_(maize)___healthy`
@@ -180,7 +180,7 @@ Where $C = 12$ classes ($\log_2(12) \approx 3.585$).
 - When the model is sharp and decisive: one class has $P \approx 0.98$, and $\hat{H} \to 0$.
 - When the model is completely confused: all classes have $P \approx \frac{1}{12} \approx 0.083$, and $\hat{H} \to 1.0$.
 
-#### Q28: What are AgriMind AI's calibrated OOD thresholds?
+#### Q28: What are AgriSmart's calibrated OOD thresholds?
 **Answer**: Calibrated using validation holdouts:
 1. **Confirmed Safe**: Maximum probability $P_{\max} \ge 0.55$ AND Normalized Entropy $\hat{H} \le 0.70$.
 2. **Uncertain / Marginal**: $0.28 \le P_{\max} < 0.55$ AND Crop Family Probability $\sum_{i \in \text{Crop}} P_i \ge 0.40$.
@@ -226,8 +226,8 @@ $$S = 0.40 \cdot S_{\text{temp}} + 0.35 \cdot S_{\text{rain}} + 0.25 \cdot S_{\t
 #### Q34: What is Gemini 2.0 Flash?
 **Answer**: Google's latest multimodal, high-speed generative AI model. It features a large context window, fast token generation (~150 tokens/sec), and strong reasoning capabilities while remaining cost-effective on Google AI Studio's free tier.
 
-#### Q35: What is RAG, and why is it used in AgriMind AI?
-**Answer**: **Retrieval-Augmented Generation (RAG)** grounds the LLM on trusted domain facts rather than relying solely on pre-trained parametric weights. AgriMind AI embeds a 31-topic curated agricultural knowledge base (covering ICAR fertilizer schedules, sowing calendars, pest thresholds). When a farmer asks a question, the backend retrieves relevant text chunks and injects them into the system prompt, preventing LLM hallucinations.
+#### Q35: What is RAG, and why is it used in AgriSmart?
+**Answer**: **Retrieval-Augmented Generation (RAG)** grounds the LLM on trusted domain facts rather than relying solely on pre-trained parametric weights. AgriSmart embeds a 31-topic curated agricultural knowledge base (covering ICAR fertilizer schedules, sowing calendars, pest thresholds). When a farmer asks a question, the backend retrieves relevant text chunks and injects them into the system prompt, preventing LLM hallucinations.
 
 #### Q36: How do you prevent API key leaks in the chat module?
 **Answer**: The frontend **never** touches `GEMINI_API_KEY`. All user messages are routed through the backend endpoint `/api/chat`. The backend retrieves the key from server-side environment variables (`backend/.env`), instantiates the `google-genai` SDK, and streams the sanitized answer back to the frontend.
@@ -240,7 +240,7 @@ $$S = 0.40 \cdot S_{\text{temp}} + 0.35 \cdot S_{\text{rain}} + 0.25 \cdot S_{\t
 ## CATEGORY G: Full-Stack Web Engineering & Security
 
 #### Q38: How does the system handle Cross-Origin Resource Sharing (CORS)?
-**Answer**: In `backend/app.py`, we apply FastAPI's `CORSMiddleware` with `allow_origins=["*"]`, `allow_credentials=True`, `allow_methods=["*"]`, and `allow_headers=["*"]`. In production deployment, `allow_origins` is restricted to the specific frontend domain (e.g. `https://agrimind-ai.vercel.app`).
+**Answer**: In `backend/app.py`, we apply FastAPI's `CORSMiddleware` with `allow_origins=["*"]`, `allow_credentials=True`, `allow_methods=["*"]`, and `allow_headers=["*"]`. In production deployment, `allow_origins` is restricted to the specific frontend domain (e.g. `https://AgriSmart.vercel.app`).
 
 #### Q39: What is the purpose of Pydantic models in FastAPI?
 **Answer**: Pydantic handles runtime data validation and serialization. In `CropYieldRequest`, fields like `Rainfall_mm` and `Temperature_Celsius` are constrained with minimum and maximum thresholds. If a client transmits negative rainfall or invalid data types, Pydantic immediately rejects it with a descriptive 422 Unprocessable Entity response before any ML pipeline code is executed.

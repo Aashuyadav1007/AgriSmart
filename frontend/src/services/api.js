@@ -1,5 +1,5 @@
 /**
- * AgriMind AI – Centralised API client
+ * AgriSmart – Centralised API client
  * All backend calls are routed through this module.
  * The API key is NEVER stored here — it lives in backend/.env only.
  */

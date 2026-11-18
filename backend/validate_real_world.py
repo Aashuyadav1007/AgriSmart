@@ -1,5 +1,5 @@
 """
-AgriMind AI - Step 1: Real-World Application Validation Script
+AgriSmart - Step 1: Real-World Application Validation Script
 Executes realistic stress tests across all 4 operational modules.
 """
 
@@ -23,7 +23,7 @@ from services.location_service import location_service
 from services.weather_service import weather_service
 
 print("\n" + "="*75)
-print("       AGRIMIND AI - REAL-WORLD STRESS & APPLICATION VALIDATION")
+print("       AGRISMART - REAL-WORLD STRESS & APPLICATION VALIDATION")
 print("="*75)
 
 load_all_models()

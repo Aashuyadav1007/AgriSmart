@@ -31,7 +31,7 @@ class TransformedDataset(Dataset):
 
 def train_disease_classifier(epochs: int = 12, batch_size: int = 16, lr: float = 0.0008):
     print("=" * 65, flush=True)
-    print("AgriMind AI - Module 2: Enhanced 12-Class Disease Classifier", flush=True)
+    print("AgriSmart - Module 2: Enhanced 12-Class Disease Classifier", flush=True)
     print("Architecture: MobileNetV2 Transfer Learning", flush=True)
     print("=" * 65, flush=True)
     

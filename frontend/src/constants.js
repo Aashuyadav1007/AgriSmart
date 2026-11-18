@@ -1,5 +1,5 @@
 /**
- * AgriMind AI – Shared constants (extracted from original App.jsx)
+ * AgriSmart – Shared constants (extracted from original App.jsx)
  */
 
 export const STATE_REGION_MAP = {

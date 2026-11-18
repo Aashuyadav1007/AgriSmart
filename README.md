@@ -1,4 +1,4 @@
-# AgriSmart  – AI-Powered Smart Agriculture Intelligence System
+# AgriSmart – AI-Powered Smart Agriculture Intelligence System
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688.svg)](https://fastapi.tiangolo.com/)
@@ -353,5 +353,5 @@ AgriSmart includes comprehensive documentation specifically prepared for final-y
 ## 📜 Attributions & Disclaimers
 
 * **Weather Attribution**: Weather data by [Open-Meteo.com](https://open-meteo.com/) licensed under CC BY 4.0.
-* **Agricultural Advisory Disclaimer**: AgriMind AI predictions are intended solely for decision support and agricultural planning. They do not replace certified agronomist prescriptions or state agricultural department advisories.
+* **Agricultural Advisory Disclaimer**: AgriSmart predictions are intended solely for decision support and agricultural planning. They do not replace certified agronomist prescriptions or state agricultural department advisories.
 * **License**: Open Source under the MIT License.

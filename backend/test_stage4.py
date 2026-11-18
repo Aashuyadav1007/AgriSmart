@@ -1,5 +1,5 @@
 """
-AgriMind AI - Stage 4 Backend Integration Test
+AgriSmart - Stage 4 Backend Integration Test
 Tests all API endpoints including /api/chat (Gemini + RAG)
 """
 import sys
@@ -40,7 +40,7 @@ def test_root():
     r = requests.get(f"{BASE}/")
     assert r.status_code == 200
     data = r.json()
-    assert "AgriMind" in data["system"]
+    assert "AgriSmart" in data["system"]
     assert "module_3" in data["modules"]
     print(f"  PASS: System = {data['system']}")
 

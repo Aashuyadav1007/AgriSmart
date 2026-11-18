@@ -1,1 +1,1 @@
-# AgriMind AI – Backend Services Package
+# AgriSmart – Backend Services Package

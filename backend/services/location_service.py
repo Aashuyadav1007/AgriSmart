@@ -1,5 +1,5 @@
 """
-Location & District Geocoding Service for AgriMind AI
+Location & District Geocoding Service for AgriSmart
 Resolves Indian States and Districts to verified geographical coordinates (lat, lon, elevation).
 Features:
 - Full coverage for all 55 verified districts of Madhya Pradesh and major agricultural districts across India.
@@ -184,7 +184,7 @@ class LocationService:
 
             req = urllib.request.Request(
                 url,
-                headers={"User-Agent": "AgriMind-AI/1.0 (Agriculture Decision Support System)"}
+                headers={"User-Agent": "AgriSmart/1.0 (Agriculture Decision Support System)"}
             )
             with urllib.request.urlopen(req, timeout=5) as response:
                 data = json.loads(response.read().decode("utf-8"))

@@ -1,5 +1,5 @@
 """
-AgriMind AI - Hierarchical Image Analysis Pipeline
+AgriSmart - Hierarchical Image Analysis Pipeline
 Performs:
 1. Image Quality Validation (Resolution, Format, Blur via Laplacian variance, Exposure)
 2. Plant vs. Non-Plant Classification (Excess Green Index & Vegetation Masking)
@@ -165,7 +165,7 @@ class ImageAnalysisPipeline:
             is_foliar = False
             message = (
                 "Plant part identified as Tuber / Root (e.g., Potato Tuber). "
-                "AgriMind AI's disease models are calibrated specifically for Foliar (Leaf) pathologies. "
+                "AgriSmart's disease models are calibrated specifically for Foliar (Leaf) pathologies. "
                 "Foliage blight algorithms cannot reliably diagnose potato tuber scab, black scurf, or dry rot. "
                 "Please upload a clear photograph of the crop's leaf foliage."
             )

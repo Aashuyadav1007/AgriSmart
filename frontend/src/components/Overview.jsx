@@ -57,7 +57,7 @@ export default function Overview({ onNavigate }) {
           <div className="max-w-3xl space-y-3">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-400/20 border border-emerald-300/30 text-xs font-semibold text-emerald-200">
               <Sparkles className="w-3.5 h-3.5 text-emerald-300" />
-              <span>AgriMind Precision Agricultural Intelligence Hub</span>
+              <span>AgriSmart Precision Agricultural Intelligence Hub</span>
             </div>
             <h1 className="text-3xl md:text-5xl font-black tracking-tight leading-tight">
               Empowering Agriculture Through Artificial Intelligence
@@ -281,7 +281,7 @@ export default function Overview({ onNavigate }) {
           <div>
             <div className="flex items-center gap-2 mb-3">
               <Bot className="w-5 h-5 text-emerald-300" />
-              <h3 className="text-base font-bold text-white">Ask AgriMind Assistant</h3>
+              <h3 className="text-base font-bold text-white">Ask AgriSmart Assistant</h3>
             </div>
             <p className="text-xs text-emerald-100/80 leading-relaxed mb-4">
               Need immediate advice on fertilizer splits, pest suppression, or seasonal crop planning? Our RAG-powered Gemini 2.0 assistant is ready to help.

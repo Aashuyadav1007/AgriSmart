@@ -1,6 +1,6 @@
-# AgriMind AI – College Project Demonstration & Defense Script
+﻿# AgriSmart – College Project Demonstration & Defense Script
 
-**Project Title**: AgriMind AI – An AI-Powered Smart Agriculture Intelligence System  
+**Project Title**: AgriSmart – An AI-Powered Smart Agriculture Intelligence System  
 **Degree**: Bachelor of Technology (B.Tech) in Computer Science & Engineering  
 **Recommended Duration**: 5 to 7 Minutes  
 **Presenter Roles**: Solo Presenter or Multi-Member Team (divided by sections)
@@ -25,14 +25,14 @@
 
 > **Speaker**:  
 > *"Respected external examiners, faculty members, and fellow students. Good morning.  
-> Today, I am proud to present **AgriMind AI**, an enterprise-grade AI-powered Smart Agriculture Intelligence System designed to empower Indian farmers and agricultural researchers with precision agronomic decision-making.  
+> Today, I am proud to present **AgriSmart**, an enterprise-grade AI-powered Smart Agriculture Intelligence System designed to empower Indian farmers and agricultural researchers with precision agronomic decision-making.  
 > 
 > In India, agriculture employs over 50% of the workforce, yet smallholder farmers lose up to 35% of their yield annually to unpredicted climate variability and crop diseases. Existing digital solutions suffer from three fundamental flaws:  
 > 1. They operate as isolated silos—weather in one app, yield estimates in another, and disease detection elsewhere.  
 > 2. Most crop yield tools rely on a single ML model without cross-validation.  
 > 3. Computer vision models for plant pathology frequently suffer from **overconfident hallucinations**—classifying a photo of a shoe or tea leaf as 'Tomato Late Blight' with 99% confidence.  
 > 
-> **AgriMind AI** solves this with a unified four-module architecture featuring dual-model yield consensus, Shannon Entropy Out-of-Distribution safety rejection, real-time Open-Meteo geospatial telemetry across all 55 official districts of Madhya Pradesh, and a Gemini 2.0 Flash agronomic assistant."*
+> **AgriSmart** solves this with a unified four-module architecture featuring dual-model yield consensus, Shannon Entropy Out-of-Distribution safety rejection, real-time Open-Meteo geospatial telemetry across all 55 official districts of Madhya Pradesh, and a Gemini 2.0 Flash agronomic assistant."*
 
 ---
 
@@ -42,7 +42,7 @@
 
 > **Speaker**:  
 > *"Let us first examine Module 1: **Crop Yield Prediction**.  
-> Rather than trusting a single opaque model, AgriMind AI utilizes an **Ensemble Consensus Architecture** comparing two structurally distinct models trained on 19,000+ agricultural data points:  
+> Rather than trusting a single opaque model, AgriSmart utilizes an **Ensemble Consensus Architecture** comparing two structurally distinct models trained on 19,000+ agricultural data points:  
 > 1. A non-linear **Random Forest Regressor** ($R^2 \approx 0.88$, RMSE: 730 kg/ha).  
 > 2. A **TensorFlow Deep Neural Network** with Batch Normalization and Dropout ($R^2 \approx 0.86$).  
 > 
@@ -76,12 +76,12 @@
 > - Disease: **Cotton Bacterial Blight (Angular Leaf Spot)** with **97.1% confidence**.  
 > - Look below: the system provides verified organic and chemical remedies cited directly from the **ICAR-Central Institute for Cotton Research (CICR) Nagpur** and **TNAU Agritech Portal**.  
 > 
-> **Now, here is the critical innovation that distinguishes AgriMind AI from conventional student projects: Out-of-Distribution (OOD) Safety Rejection.**  
+> **Now, here is the critical innovation that distinguishes AgriSmart from conventional student projects: Out-of-Distribution (OOD) Safety Rejection.**  
 > Standard Softmax classifiers will force-classify *any* image into one of its 12 classes with artificial 99% certainty. Let me prove this by uploading a non-plant test image."*  
 > 
 > *(Action: Upload non-plant image or synthetic noise test file and click **'Diagnose Leaf Disease'**).*  
 > 
-> *"Notice the screen! Instead of hallucinating, AgriMind AI flags an **Amber Out-of-Distribution Warning**.  
+> *"Notice the screen! Instead of hallucinating, AgriSmart flags an **Amber Out-of-Distribution Warning**.  
 > We implemented a dual-criterion gating mechanism combining maximum probability ($P_{\max}$) and **Shannon Entropy**:  
 > $$H(P) = -\sum_{i=1}^{12} P_i \log_2(P_i)$$  
 > If the image exhibits high epistemic entropy ($H > 0.88$) or low crop-family probability ($P < 0.40$), the model gracefully rejects the image and advises the farmer that this crop is unsupported, achieving a **0.0% False Acceptance Rate** during our OOD stress validation."*
@@ -140,7 +140,7 @@
 >   * Disease Detection Test Accuracy: **73.9%** across 12 challenging classes, with **0.0% False Acceptance Rate on OOD images**.  
 >   * Geospatial Database: **143 verified districts** (55 MP districts).  
 > 
-> AgriMind AI demonstrates how modern machine learning, computer vision, and generative AI can be synthesized into a practical, fault-tolerant, and farmer-centric platform.  
+> AgriSmart demonstrates how modern machine learning, computer vision, and generative AI can be synthesized into a practical, fault-tolerant, and farmer-centric platform.  
 > 
 > Thank you. We are now open for questions."*
 

@@ -24,7 +24,7 @@ def download_single_image(url: str, dest_path: Path) -> bool:
     if dest_path.exists() and dest_path.stat().st_size > 1000:
         return True
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'AgriMind-AI/1.0'})
+        req = urllib.request.Request(url, headers={'User-Agent': 'AgriSmart/1.0'})
         with urllib.request.urlopen(req, timeout=15) as resp:
             content = resp.read()
             with open(dest_path, 'wb') as f:
@@ -52,7 +52,7 @@ def download_plantvillage_sample(images_per_class: int = 12):
             
             # Fetch manifest
             api_url = f"https://api.github.com/repos/spMohanty/PlantVillage-Dataset/contents/raw/color/{cls}"
-            req = urllib.request.Request(api_url, headers={'User-Agent': 'AgriMind-AI/1.0'})
+            req = urllib.request.Request(api_url, headers={'User-Agent': 'AgriSmart/1.0'})
             try:
                 with urllib.request.urlopen(req, timeout=10) as resp:
                     items = json.loads(resp.read().decode())

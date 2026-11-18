@@ -146,7 +146,7 @@ class DiseaseClassifierService:
                     "organic_controls": ["Please capture a direct, in-focus photograph of a living plant leaf or crop canopy."],
                     "chemical_treatment": ["No agricultural chemical treatment applicable."],
                     "preventative_practices": ["Position the camera 15-30 cm from the leaf surface with natural daylight."],
-                    "source_reference": "AgriMind AI Plant Presence Validation Engine"
+                    "source_reference": "AgriSmart Plant Presence Validation Engine"
                 },
                 "bilingual_advisory": {
                     "en": {
@@ -220,7 +220,7 @@ class DiseaseClassifierService:
                     "organic_controls": ["For foliar disease diagnosis, please photograph the crop's leaves."],
                     "chemical_treatment": ["Do not apply foliar fungicides to soil tubers without certified pathology tests."],
                     "preventative_practices": ["Check tubers/roots for soil rot or storage scab separately."],
-                    "source_reference": "AgriMind AI Plant Organ Discrimination Engine"
+                    "source_reference": "AgriSmart Plant Organ Discrimination Engine"
                 },
                 "bilingual_advisory": {
                     "en": {
@@ -318,7 +318,7 @@ class DiseaseClassifierService:
             display_crop = "Unknown / Unsupported Crop"
             display_condition = "Uncertain or Unsupported Foliage"
             recommended_action = (
-                "The uploaded leaf image does not reliably match any of AgriMind AI's supported crops "
+                "The uploaded leaf image does not reliably match any of AgriSmart's supported crops "
                 "(Cotton, Tomato, Potato, Corn). Please upload a clear photo of a supported crop leaf."
             )
         elif conf_val < CONFIRM_THRESHOLD:
@@ -423,7 +423,7 @@ class DiseaseClassifierService:
                 "organic_controls": ["Consult a local Krishi Vigyan Kendra (KVK) for specialized crop diagnosis."],
                 "chemical_treatment": ["Do not spray broad-spectrum chemicals without expert diagnosis."],
                 "preventative_practices": ["Ensure sample images have clear lighting and focus on leaf surface."],
-                "source_reference": "AgriMind AI Out-of-Distribution Rejection Engine"
+                "source_reference": "AgriSmart Out-of-Distribution Rejection Engine"
             },
             "bilingual_advisory": bilingual
         }

@@ -25,7 +25,7 @@ def download_and_verify():
         print(f"Destination: {ZIP_PATH}")
         print(f"Expected Size: {EXPECTED_SIZE / (1024*1024):.2f} MB")
         
-        req = urllib.request.Request(URL, headers={"User-Agent": "AgriMind-AI-Verification/1.0"})
+        req = urllib.request.Request(URL, headers={"User-Agent": "AgriSmart-Verification/1.0"})
         t0 = time.time()
         with urllib.request.urlopen(req, timeout=60) as resp, open(ZIP_PATH, "wb") as out_file:
             downloaded = 0

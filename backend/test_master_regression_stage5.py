@@ -1,5 +1,5 @@
 """
-Master Regression Test Suite for AgriMind AI - Stage 5
+Master Regression Test Suite for AgriSmart - Stage 5
 Covers all modules:
 A. Crop Yield Prediction (Random Forest, TensorFlow DNN, Legacy /predict, Dual /api/yield/predict)
 B. Plant Disease Detection (12 classes, Cotton classes, OOD rejection, Remedies & Citations)
@@ -26,7 +26,7 @@ class TestMasterRegressionStage5(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         print("\n" + "="*75)
-        print("          AGRIMIND AI - MASTER REGRESSION TEST SUITE (STAGE 5)")
+        print("          AGRISMART - MASTER REGRESSION TEST SUITE (STAGE 5)")
         print("="*75)
         # Explicitly initialize all models and metrics for test client
         load_all_models()

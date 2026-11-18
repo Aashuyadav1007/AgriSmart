@@ -25,10 +25,10 @@ export default function AboutProject() {
             <span>Enterprise Multi-Modal Agricultural Intelligence</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-black tracking-tight mb-3">
-            About AgriMind AI
+            About AgriSmart
           </h1>
           <p className="text-emerald-100/90 text-sm md:text-base leading-relaxed">
-            AgriMind AI is an enterprise-grade Smart Agriculture platform unifying classical Machine Learning, Deep Neural Networks, Computer Vision with Out-of-Distribution (OOD) uncertainty calibration, Open-Meteo telemetry, and Generative AI (RAG).
+            AgriSmart is an enterprise-grade Smart Agriculture platform unifying classical Machine Learning, Deep Neural Networks, Computer Vision with Out-of-Distribution (OOD) uncertainty calibration, Open-Meteo telemetry, and Generative AI (RAG).
           </p>
         </div>
       </div>

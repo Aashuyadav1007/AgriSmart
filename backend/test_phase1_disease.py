@@ -9,7 +9,7 @@ from services.disease_service import disease_service
 
 def test_phase1():
     print("=" * 70)
-    print("AgriMind AI - Phase 1 Verification Test Suite")
+    print("AgriSmart - Phase 1 Verification Test Suite")
     print("Disease Detection Overhaul, Cotton Integration & OOD Rejection")
     print("=" * 70)
 

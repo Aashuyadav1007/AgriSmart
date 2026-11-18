@@ -1,6 +1,6 @@
-# AgriMind AI – Production Deployment & Cloud Hosting Guide
+﻿# AgriSmart – Production Deployment & Cloud Hosting Guide
 
-This guide details the step-by-step procedure for deploying **AgriMind AI** to production cloud platforms on a 100% free-tier architecture.
+This guide details the step-by-step procedure for deploying **AgriSmart** to production cloud platforms on a 100% free-tier architecture.
 
 ---
 
@@ -66,7 +66,7 @@ Before deploying to containerized hosts, verify the artifact dimensions:
 2. Click **New +** -> **Web Service**.
 3. Connect your GitHub repository.
 4. Configure the service parameters:
-   - **Name**: `agrimind-backend`
+   - **Name**: `AgriSmart-backend`
    - **Region**: `Singapore` or `Frankfurt` (closest to your audience)
    - **Root Directory**: `CropYieldApp/CropYieldApp/backend`
    - **Environment**: `Python 3`
@@ -92,13 +92,13 @@ Under the **Environment** tab, add:
 
 ### Step 3.3: Verify Backend Live Health
 Once deployment completes, visit:
-`https://agrimind-backend.onrender.com/health`
+`https://AgriSmart-backend.onrender.com/health`
 
 Expected JSON response:
 ```json
 {
   "status": "healthy",
-  "app": "AgriMind AI",
+  "app": "AgriSmart",
   "version": "2.0.0",
   "rf_model_loaded": true,
   "tf_model_loaded": true,
@@ -127,13 +127,13 @@ Under **Environment Variables**, add:
 
 | Key | Value |
 |---|---|
-| `VITE_API_BASE_URL` | `https://agrimind-backend.onrender.com` |
+| `VITE_API_BASE_URL` | `https://AgriSmart-backend.onrender.com` |
 
 *(Replace with your actual Render backend URL without trailing slash).*
 
 ### Step 4.3: Deploy & Verify
 Click **Deploy**. Within 60 seconds, your site is live at:
-`https://agrimind-ai.vercel.app`
+`https://AgriSmart.vercel.app`
 
 ---
 
@@ -166,8 +166,8 @@ CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8001"]
 
 Build and run:
 ```bash
-docker build -t agrimind-backend:v2 ./backend
-docker run -d -p 8001:8001 --env GEMINI_API_KEY="your_key" agrimind-backend:v2
+docker build -t AgriSmart-backend:v2 ./backend
+docker run -d -p 8001:8001 --env GEMINI_API_KEY="your_key" AgriSmart-backend:v2
 ```
 
 ---

@@ -33,7 +33,7 @@ def find_extracted_root():
 
 def run_verification():
     print("=" * 80)
-    print("AgriMind AI - Stage 1: Dataset Ingestion, Consolidation & Verification")
+    print("AgriSmart - Stage 1: Dataset Ingestion, Consolidation & Verification")
     print("=" * 80)
 
     pv_root = find_extracted_root()

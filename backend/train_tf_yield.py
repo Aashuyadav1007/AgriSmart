@@ -18,7 +18,7 @@ from path_config import DATASET_PATH, RF_MODEL_PATH, TF_MODEL_PATH, METRICS_PATH
 
 def train_and_benchmark(sample_size: int = 100000, epochs: int = 25, batch_size: int = 128):
     print("=" * 60)
-    print("AgriMind AI - Module 1: Crop Yield Model Training & Benchmarking")
+    print("AgriSmart - Module 1: Crop Yield Model Training & Benchmarking")
     print("=" * 60)
     
     MODELS_DIR.mkdir(parents=True, exist_ok=True)
@@ -74,7 +74,7 @@ def train_and_benchmark(sample_size: int = 100000, epochs: int = 25, batch_size:
         layers.Dropout(0.15),
         layers.Dense(32, activation='relu'),
         layers.Dense(1, activation='linear')
-    ], name="AgriMind_Yield_Forecaster")
+    ], name="AgriSmart_Yield_Forecaster")
     
     model.compile(
         optimizer=keras.optimizers.Adam(learning_rate=0.002),

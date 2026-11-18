@@ -116,7 +116,7 @@ export default function SmartDashboard() {
         <div>
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-xs font-semibold text-emerald-800 mb-2">
             <Sprout className="w-3.5 h-3.5 text-emerald-600" />
-            <span>AgriMind Precision Meteorological Intelligence</span>
+            <span>AgriSmart Precision Meteorological Intelligence</span>
           </div>
           <h1 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight">
             Smart Farming & Weather Dashboard
@@ -626,7 +626,7 @@ export default function SmartDashboard() {
                 <strong>Data Transparency Notice:</strong> The current project dataset (<code className="bg-purple-100 px-1.5 py-0.5 rounded text-purple-800">crop_yield.csv</code>) contains macro-level regional records (North, South, East, West) rather than year-by-year district gazette yields.
               </p>
               <p>
-                To avoid fabricating synthetic yield-rainfall correlations, AgriMind AI strictly presents verified <strong>Open-Meteo precipitation observations</strong> above and benchmark reference yields from official ICAR/FAO publications below. Full district-level historical yield cross-referencing will be supported when Directorate of Economics and Statistics (DES) state gazettes are integrated.
+                To avoid fabricating synthetic yield-rainfall correlations, AgriSmart strictly presents verified <strong>Open-Meteo precipitation observations</strong> above and benchmark reference yields from official ICAR/FAO publications below. Full district-level historical yield cross-referencing will be supported when Directorate of Economics and Statistics (DES) state gazettes are integrated.
               </p>
             </div>
           </div>
@@ -716,7 +716,7 @@ export default function SmartDashboard() {
       {/* ========================================================================= */}
       {healthData && (
         <div className="bg-gray-50 rounded-2xl p-5 border border-gray-200/80">
-          <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-3">AgriMind AI System Health</p>
+          <p className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-3">AgriSmart System Health</p>
           <div className="flex flex-wrap gap-3">
             {[
               ['Random Forest Engine', healthData.rf_model_loaded],

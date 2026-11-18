@@ -1,6 +1,6 @@
-# AgriMind AI – UI Screenshots & Visual Presentation Guide
+﻿# AgriSmart – UI Screenshots & Visual Presentation Guide
 
-This guide details the standard screenshot catalog for **AgriMind AI** project reports, presentations, and viva defense demonstrations.
+This guide details the standard screenshot catalog for **AgriSmart** project reports, presentations, and viva defense demonstrations.
 
 ---
 

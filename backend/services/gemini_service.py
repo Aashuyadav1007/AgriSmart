@@ -1,5 +1,5 @@
 """
-AgriMind AI - Module 3: Trilingual (English, Hindi, Hinglish) GenAI Farming Assistant
+AgriSmart - Module 3: Trilingual (English, Hindi, Hinglish) GenAI Farming Assistant
 - Mode 1: Live Google Gemini (gemini-3.8-flash / gemini-3.5-flash-lite) with streaming.
 - Mode 2: Intelligent Dynamic Agricultural Local RAG Synthesizer (English, Hindi, Hinglish).
 - Real-time SSE token/line streaming support for natural conversational generation.
@@ -14,7 +14,7 @@ from typing import Optional, List, Dict, Any, AsyncIterator
 
 from dotenv import load_dotenv
 
-logger = logging.getLogger("agrimind.gemini")
+logger = logging.getLogger("agrismart.gemini")
 
 # ---------------------------------------------------------------------------
 # Path setup
@@ -350,7 +350,7 @@ def _synthesize_local_rag_response(message: str, relevant_entries: list[dict], l
 # Upgraded Gemini System Prompt (Strict Trilingual & Conversational Persona)
 # ---------------------------------------------------------------------------
 _SYSTEM_INSTRUCTION = (
-    "You are AgriMind AI, an intelligent, empathetic, and highly experienced Indian agricultural scientist "
+    "You are AgriSmart, an intelligent, empathetic, and highly experienced Indian agricultural scientist "
     "and Krishi Vigyan Kendra (KVK) agronomy specialist.\n\n"
     "MISSION: Provide direct, actionable, practical advice to Indian farmers on crop cultivation, "
     "Kharif/Rabi seasons, fertilizer schedules (NPK/organic), irrigation timing, soil health, and plant pathology.\n\n"
@@ -451,7 +451,7 @@ def chat(message: str, history: Optional[list] = None, top_k_context: int = 3) -
         "reply": local_reply,
         "context_topics": context_topics,
         "context_used": len(relevant_entries),
-        "engine": "AgriMind-Dynamic-RAG",
+        "engine": "AgriSmart-Dynamic-RAG",
         "is_live_gemini": False,
         "language": lang,
         "status": "rag_active"
@@ -554,7 +554,7 @@ async def chat_stream(message: str, history: Optional[list] = None, top_k_contex
     final_payload = json.dumps({
         "done": True,
         "context_topics": context_topics,
-        "model": "AgriMind-Dynamic-RAG",
+        "model": "AgriSmart-Dynamic-RAG",
         "is_live_gemini": False,
         "language": lang
     })

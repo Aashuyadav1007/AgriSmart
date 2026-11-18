@@ -1,5 +1,5 @@
 """
-AgriMind AI - Stage 6 Comprehensive End-to-End Integration Test Suite
+AgriSmart - Stage 6 Comprehensive End-to-End Integration Test Suite
 Validates:
 1. Application Health & Model States
 2. Dual Yield Prediction (RF + TF + Consensus)
@@ -31,7 +31,7 @@ class TestStage6EndToEnd(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         print("\n" + "="*75)
-        print("          AGRIMIND AI - STAGE 6 END-TO-END VERIFICATION SUITE")
+        print("          AGRISMART - STAGE 6 END-TO-END VERIFICATION SUITE")
         print("="*75)
         load_all_models()
         cls.client = TestClient(app)

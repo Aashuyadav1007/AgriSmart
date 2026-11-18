@@ -11,7 +11,7 @@ import { detectDisease } from '../services/api';
 const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10 MB
 const ACCEPTED_TYPES = ['image/jpeg', 'image/png', 'image/webp'];
 
-// Exact 17 Crop Categories from AgriMind AI Master Specification (Part 1) + Validated Classes
+// Exact 17 Crop Categories from AgriSmart Master Specification (Part 1) + Validated Classes
 const CROP_COVERAGE_CATALOG = [
   // A. KHARIF CROPS
   { id: 1, crop: 'Rice / Paddy (धान)', group: 'Kharif', season: 'Kharif', part: 'Leaf / Sheath', diseases: 'Rice Blast, Bacterial Leaf Blight, Brown Spot', source: 'ICAR-NRRI Cuttack Advisory', metrics: 'Pipeline Gated (120 imgs)', status: 'EXPERIMENTAL SUPPORT' },

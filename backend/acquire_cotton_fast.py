@@ -19,11 +19,11 @@ RAW_BASE = "https://raw.githubusercontent.com/AiJared/Cotton-Plant-Disease-Detec
 
 def download_cotton_dataset(images_per_class: int = 16):
     print("=" * 60, flush=True)
-    print("AgriMind AI - Direct Raw Acquisition of Cotton Leaf Dataset", flush=True)
+    print("AgriSmart - Direct Raw Acquisition of Cotton Leaf Dataset", flush=True)
     print("=" * 60, flush=True)
     
     session = requests.Session()
-    session.headers.update({"User-Agent": "AgriMind-AI/1.0"})
+    session.headers.update({"User-Agent": "AgriSmart/1.0"})
     
     total_downloaded = 0
     

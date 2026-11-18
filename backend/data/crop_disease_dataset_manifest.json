@@ -1,7 +1,7 @@
 {
   "manifest_version": "2.0.0",
   "generated_at": "2026-11-15T18:48:00+05:30",
-  "project": "AgriMind AI - Universal Indian Crop Disease Detection System",
+  "project": "AgriSmart - Universal Indian Crop Disease Detection System",
   "total_crops_cataloged": 17,
   "summary": {
     "validated_support_crops": 4,
@@ -299,7 +299,7 @@
       ],
       "reference_source": "ICAR-CPRI Shimla Advisory",
       "status": "EXPERIMENTAL SUPPORT",
-      "dataset_source": "AgriMind Organ Discrimination Engine + ICAR-CPRI Tuber Pathology Reference",
+      "dataset_source": "AgriSmart Organ Discrimination Engine + ICAR-CPRI Tuber Pathology Reference",
       "source_url": "https://cpri.icar.gov.in/potato-disease-identification/",
       "license": "Educational Research Attribution",
       "image_quality": "Harvested tuber surface photography (non-foliar)",

@@ -19,9 +19,9 @@ export default function AgriChatbot() {
   const [messages, setMessages] = useState([
     {
       role: 'model',
-      content: "👋 **नमस्ते किसान भाई! / Hello!** I am **AgriMind AI**, your trilingual intelligent farming assistant.\n\nAsk me anything in **English**, **हिन्दी (Devanagari)**, or **Hinglish (Roman Hindi)** — for example: *'gehun me konsi khad dale'*, *'गेहूँ में खाद की मात्रा'*, or *'wheat fertilizer schedule'*.\n\nI dynamically generate answers line-by-line combining live **Google Gemini 2.0 Flash** with our verified ICAR agricultural research base. How may I help your farm today?",
-      context_topics: ['AgriMind Core Advisory', 'Trilingual Assistant'],
-      engine: 'AgriMind-Dual-Engine'
+      content: "👋 **नमस्ते किसान भाई! / Hello!** I am **AgriSmart**, your trilingual intelligent farming assistant.\n\nAsk me anything in **English**, **हिन्दी (Devanagari)**, or **Hinglish (Roman Hindi)** — for example: *'gehun me konsi khad dale'*, *'गेहूँ में खाद की मात्रा'*, or *'wheat fertilizer schedule'*.\n\nI dynamically generate answers line-by-line combining live **Google Gemini 2.0 Flash** with our verified ICAR agricultural research base. How may I help your farm today?",
+      context_topics: ['AgriSmart Core Advisory', 'Trilingual Assistant'],
+      engine: 'AgriSmart-Dual-Engine'
     },
   ]);
   const [input, setInput] = useState('');
@@ -78,7 +78,7 @@ export default function AgriChatbot() {
       const decoder = new TextDecoder('utf-8');
       let accumulated = '';
       let streamTopics = [];
-      let streamModel = 'AgriMind AI';
+      let streamModel = 'AgriSmart';
       let liveGeminiActive = false;
       let buffer = '';
 
@@ -113,7 +113,7 @@ export default function AgriChatbot() {
             }
             if (parsed.done) {
               streamTopics = parsed.context_topics || [];
-              streamModel = parsed.model || 'AgriMind AI';
+              streamModel = parsed.model || 'AgriSmart';
               liveGeminiActive = Boolean(parsed.is_live_gemini);
             }
           } catch (jsonErr) {
@@ -166,7 +166,7 @@ export default function AgriChatbot() {
               role: 'model',
               content: data.reply,
               context_topics: data.context_topics || [],
-              engine: data.model || 'AgriMind AI',
+              engine: data.model || 'AgriSmart',
               is_live_gemini: data.is_live_gemini,
               notice: data.notice,
               isStreaming: false
@@ -184,7 +184,7 @@ export default function AgriChatbot() {
           if (last && last.role === 'model') {
             next[next.length - 1] = {
               role: 'model', 
-              content: `⚠️ ${errorMsg}\n\n*Please ensure the AgriMind backend is running at http://localhost:8001.*`, 
+              content: `⚠️ ${errorMsg}\n\n*Please ensure the AgriSmart backend is running at http://localhost:8001.*`, 
               context_topics: [], 
               isError: true,
               isStreaming: false
@@ -280,7 +280,7 @@ export default function AgriChatbot() {
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h2 className="text-lg font-bold text-white">AgriMind AI Assistant</h2>
+                <h2 className="text-lg font-bold text-white">AgriSmart Assistant</h2>
                 <span className="text-[10px] font-bold uppercase tracking-wider bg-white/20 px-2 py-0.5 rounded-full border border-white/20">
                   English • हिन्दी • Hinglish
                 </span>
@@ -418,7 +418,7 @@ export default function AgriChatbot() {
 
             <div className="text-xs text-gray-600 space-y-3 leading-relaxed">
               <p>
-                AgriMind AI operates a <strong>Dual-Engine Architecture</strong>: it currently answers questions dynamically through our verified local agricultural knowledge base.
+                AgriSmart operates a <strong>Dual-Engine Architecture</strong>: it currently answers questions dynamically through our verified local agricultural knowledge base.
               </p>
               <p>
                 To unlock live conversational generation via <strong>Google Gemini 2.0 Flash</strong>, follow these 5 steps:
@@ -441,7 +441,7 @@ export default function AgriChatbot() {
               <div className="p-3 bg-emerald-50 rounded-xl border border-emerald-200 text-emerald-800 text-xs flex items-start gap-2">
                 <CheckCircle className="w-4 h-4 text-emerald-600 flex-shrink-0 mt-0.5" />
                 <span>
-                  <strong>Dynamic Auto-Reload:</strong> Once saved in <code className="font-mono text-[11px]">backend/.env</code>, AgriMind AI detects the key immediately without needing a server restart!
+                  <strong>Dynamic Auto-Reload:</strong> Once saved in <code className="font-mono text-[11px]">backend/.env</code>, AgriSmart detects the key immediately without needing a server restart!
                 </span>
               </div>
             </div>

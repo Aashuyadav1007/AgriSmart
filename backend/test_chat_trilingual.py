@@ -1,5 +1,5 @@
 """
-AgriMind AI - Trilingual Chat & Streaming Automated Verification Test
+AgriSmart - Trilingual Chat & Streaming Automated Verification Test
 Validates:
 1. Trilingual language classification (English, Hindi, Hinglish)
 2. Live response generation matching query language

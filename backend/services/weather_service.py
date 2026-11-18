@@ -1,5 +1,5 @@
 """
-Open-Meteo Weather Service for AgriMind AI
+Open-Meteo Weather Service for AgriSmart
 Handles:
 - District-based current weather observations
 - 7-day weather forecasts
@@ -93,7 +93,7 @@ class WeatherService:
             f"timezone=auto"
         )
 
-        req = urllib.request.Request(url, headers={"User-Agent": "AgriMind-AI/1.0"})
+        req = urllib.request.Request(url, headers={"User-Agent": "AgriSmart/1.0"})
         with urllib.request.urlopen(req, timeout=8) as resp:
             data = json.loads(resp.read().decode("utf-8"))
 
@@ -157,7 +157,7 @@ class WeatherService:
             f"timezone=auto"
         )
 
-        req = urllib.request.Request(url, headers={"User-Agent": "AgriMind-AI/1.0"})
+        req = urllib.request.Request(url, headers={"User-Agent": "AgriSmart/1.0"})
         with urllib.request.urlopen(req, timeout=8) as resp:
             data = json.loads(resp.read().decode("utf-8"))
 
@@ -241,7 +241,7 @@ class WeatherService:
                 f"daily=precipitation_sum,temperature_2m_mean&timezone=auto"
             )
 
-        req = urllib.request.Request(url, headers={"User-Agent": "AgriMind-AI/1.0"})
+        req = urllib.request.Request(url, headers={"User-Agent": "AgriSmart/1.0"})
         with urllib.request.urlopen(req, timeout=12) as resp:
             data = json.loads(resp.read().decode("utf-8"))
 

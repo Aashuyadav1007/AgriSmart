@@ -24,7 +24,7 @@ def download_single_image(url: str, dest_path: Path) -> bool:
     if dest_path.exists() and dest_path.stat().st_size > 1000:
         return True
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'AgriMind-AI/1.0'})
+        req = urllib.request.Request(url, headers={'User-Agent': 'AgriSmart/1.0'})
         with urllib.request.urlopen(req, timeout=15) as resp:
             content = resp.read()
             with open(dest_path, 'wb') as f:
@@ -39,7 +39,7 @@ def download_single_image(url: str, dest_path: Path) -> bool:
 
 def acquire_cotton_dataset(images_per_class: int = 16):
     print("=" * 60, flush=True)
-    print("AgriMind AI - Step 1: Acquiring Verified Cotton Leaf Dataset", flush=True)
+    print("AgriSmart - Step 1: Acquiring Verified Cotton Leaf Dataset", flush=True)
     print("=" * 60, flush=True)
     
     DATASET_DIR.mkdir(parents=True, exist_ok=True)
@@ -56,7 +56,7 @@ def acquire_cotton_dataset(images_per_class: int = 16):
             # Fetch folder manifest from GitHub
             encoded_folder = urllib.parse.quote(remote_dir)
             api_url = f"{GITHUB_BASE}/{encoded_folder}"
-            req = urllib.request.Request(api_url, headers={'User-Agent': 'AgriMind-AI/1.0'})
+            req = urllib.request.Request(api_url, headers={'User-Agent': 'AgriSmart/1.0'})
             
             try:
                 with urllib.request.urlopen(req, timeout=12) as resp:
@@ -82,7 +82,7 @@ def acquire_cotton_dataset(images_per_class: int = 16):
                 
         # Also download repository root test images into holdout test directory
         try:
-            req_root = urllib.request.Request(GITHUB_BASE, headers={'User-Agent': 'AgriMind-AI/1.0'})
+            req_root = urllib.request.Request(GITHUB_BASE, headers={'User-Agent': 'AgriSmart/1.0'})
             with urllib.request.urlopen(req_root, timeout=10) as resp:
                 root_items = json.loads(resp.read().decode())
                 test_files = [it for it in root_items if it['name'].startswith('test') and it['name'].endswith('.jpg')]
